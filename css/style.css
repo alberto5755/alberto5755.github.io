@@ -103,20 +103,25 @@ button:focus {
 
 
 .blob{
-    margin-top:7em;
-    width: 600px;
-    height: 700px;
+    margin-right:auto;
+    margin-top:12em;
+    transform:scaleX(-1);
+    width: 24em;
+    height: 30em;
     background: url(home-right.jpg);
-    background-size: cover;
+    background-size: 29em;
+    background-repeat: no-repeat;
     animation: animate 5s linear infinite;
 }
 
 .blob2{
-    margin-left:-9em;
-    width: 600px;
-    height: 700px;
+    margin:auto;
+    margin-bottom:5em;
+    width: 22em;
+    height: 30em;
     background: url(about-us.jpg);
-    background-size: cover;
+    background-size: 23em;
+    background-repeat: no-repeat;
     animation: animate 5s linear infinite;
 }
 
