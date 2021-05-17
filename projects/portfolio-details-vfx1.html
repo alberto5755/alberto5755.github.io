@@ -3,10 +3,10 @@
 
     <head>
         <!-- Required meta tags -->
-        <meta charset="utf-8"> 
+        <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="icon" href="../img/favicon.png" type="image/png">
-        <title>Cybernetic Hand Model</title>
+        <title>Cybernetic Hand Composited</title> 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="../css/bootstrap.css">
         <!-- <link rel="stylesheet" href="vendors/linericon/style.css">-->
@@ -49,7 +49,7 @@
             <div class="banner_inner d-flex align-items-center">
                 <div class="container">
                     <div class="banner_content text-center">
-                        <h2>Cybernetic Hand Model</h2>
+                        <h2>Cybernetic Hand <br/> Composited</h2>
                         <div class="page_link">
                             <a href="/index.html">Home</a>
                             <a href="/work.html">Work</a>
@@ -67,10 +67,40 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="left_img">
-                                <img style ="width:100%;" aria-atomic=""class="img-fluid rounded" src="/img/portfolio/portfolio-details113.png" alt="">
-                                <img style ="width:100%" class="img-fluid rounded" src="/img/portfolio/portfolio-details112.png" alt="">
                                 <div style="margin-top: 0.3em; margin-bottom: 3em;">
-                                    <img style ="width:100%;" aria-atomic=""class="img-fluid rounded" src="/img/portfolio/portfolio-details114.gif" alt="">
+                                    <video style="margin:auto;width:100%;display:block;" controls  class="rounded">
+                                        <source src="/img/portfolio/portfolio-details116.mp4" type="video/mp4">
+                                        <source src="/img/portfolio/portfolio-details.ogg" type="video/ogg">
+                                        Your browser does not support the video tag.
+                                    </video> 
+                                </div>
+                                <div style="margin-top: 0.3em; margin-bottom: 3em;">
+                                    <video style="margin:auto;width:100%;display:block;" controls  class="rounded">
+                                        <source src="/img/portfolio/portfolio-details117.mp4" type="video/mp4">
+                                        <source src="/img/portfolio/portfolio-details117.ogg" type="video/ogg">
+                                        Your browser does not support the video tag.
+                                    </video> 
+                                </div>
+                                <div style="margin-top: 0.3em; margin-bottom: 3em;">
+                                    <video style="margin:auto;width:100%;display:block;" controls  class="rounded">
+                                        <source src="/img/portfolio/portfolio-details118.mp4" type="video/mp4">
+                                        <source src="/img/portfolio/portfolio-details118.ogg" type="video/ogg">
+                                        Your browser does not support the video tag.
+                                    </video> 
+                                </div>
+                                <div style="margin-top: 0.3em; margin-bottom: 3em;">
+                                    <video style="margin:auto;width:100%;display:block;" controls  class="rounded">
+                                        <source src="/img/portfolio/portfolio-details119.mp4" type="video/mp4">
+                                        <source src="/img/portfolio/portfolio-details119.ogg" type="video/ogg">
+                                        Your browser does not support the video tag.
+                                    </video> 
+                                </div>
+                                <div style="margin-top: 0.3em; margin-bottom: 3em;">
+                                    <video style="margin:auto;width:100%;display:block;" controls  class="rounded">
+                                        <source src="/img/portfolio/portfolio-details120.mp4" type="video/mp4">
+                                        <source src="/img/portfolio/portfolio-details120.ogg" type="video/ogg">
+                                        Your browser does not support the video tag.
+                                    </video> 
                                 </div>
                             </div>
                         </div>
@@ -78,26 +108,52 @@
                             <div class="portfolio_right_text mt-30">
 
                                 <p>
-                                    I created this model following the blocking technique to get the main shape of the model, with primitive objects (cubes and cylinders). <br/> I then started adding details with boleans and thanks to plugins such as Hard Ops and Box Cutter, I was able to make the workflow more efficient.<br/>  Furthermore the cables where made with the help of the Cablerator, another plugin for Blender, which creates automatically a path which targets a circle in order to create the cable, I then applied a hook for each one of them, so when the filgers will move, the cables will stretch. <br/> I also added some details in the inside of the hand to increase the realism. <br>Once the hand was modelled, I started to rig it, with basic bone parenting (for weight painting) and bone constraints, therefore I just need to control a single bone to animate an entire finger.<br/> Regarding the materials, I mostly applied a metallic Principle BSDFs, with slight color variations, as I believe it corresponds the most to this model, finally in order to increase the realism of this material I added a procedural noise texture to give a slight bump to the metal.<br/> This technique has also been used for the grip material on the palm of the hand, which was essentially made with a simple BSDF and a low roughness.
-                                    This model has also been <a href="/projects/portfolio-details-vfx1.html"> composited </a> to various footages. 
-                                <ul class="list">
-                                    <li><span>Tools</span>: Blender</li>
+                                    I utilized the <a href="/projects/portfolio-details-3D3.html"> Cybernetic hand model </a> on 5 different static shots, in which all of them required object matchmoving, masking, chroma keying, roto, cleanup and compositing. </p>The process is very similar for all the 5 shots, I did a planar tracking of the actor's hand, exported the keyframes into Blender, parent the cybernetic hand model to the tracking points, adjust the rotation to match the footage and animate the fingers. <p> I then added a light to match the lighting of the shot and rendered.</p> <p> On After Effects, I keyed out the real hand, and painted the background layer to create a clean plate.</p> <p> I finally composited the CG plate and the clean plate with RGB curves, color correction, feathered black solids for the drop shadows and motion blur. The SFX were later added in the Editing process and are available in the movie.</p><p> I also made other VFX shots where I had to replace the arm of the actor with a CG stomp arm, and another where a CG Atm gets punched, however I didn't modelled these assets.</p><p>These shots were then used in an interactive short movie named Almost Human based from <a href="/projects/portfolio-details-design3.html">this poster</a> which can be viewed at the bottom of this page.</p><p>**For now the project is set to private, to view it, the password is <b>finalyearproject</b></p>
+                                <ul class="list"> 
+                                    <li><span>Tools</span>: Blender, After Effects, Mocha Pro and Photoshop</li>
                                     <li><span>Completed</span>: 20 Jan 2021</li>
                                 </ul>
                             </div>
                         </div>
-                        <video style="margin:auto;width:70%;display:block;" controls loop class="rounded">
-                            <source src="/img/portfolio/portfolio-details115.mp4" type="video/mp4">
-                            <source src="/img/portfolio/portfolio-details115.ogg" type="video/ogg">
-                            Your browser does not support the video tag.
-                        </video>
+                        <!--
+
+<div style="width: 75em; height:41em;">
+<iframe     src="https://video.eko.com/v/Aq4qap/embed" 
+title="Almost Human"
+style="width: 100%; height: 100%; border:0; left:0; right:0;" class="rounded"
+allowfullscreen 
+allow="autoplay; fullscreen">
+</iframe>
+</div> -->
+
+                        <div style="padding-bottom: 56.25%; height: 0; max-width: 100%;">
+                            <iframe 
+                                    src="https://video.eko.com/v/Aq4qap/embed" 
+                                    title="That Moment When"
+                                    style="width: 100%; height: 100%; border: 0; left:0; right:0;" 
+                                    allowfullscreen 
+                                    allow="fullscreen">
+                            </iframe>
+                        </div>
+
+                        <!--Vertical embed-->
+                        <div style="margin-bottom: 70%; height: 0; max-width: 100%;">
+                            <iframe 
+                                    src="https://video.eko.com/v/Aq4qap/embed" 
+                                    title="That Moment When"
+                                    style="width: 100%; height: 100%; border: 0; position: absolute; left:0; right:0;" 
+                                    allowfullscreen 
+                                    allow="fullscreen">
+                            </iframe>
+                        </div>
                     </div>
+
                 </div>
             </div>
         </section>
         <!--================End Portfolio Details Area =================-->
         <!--================Footer Area =================-->
-        <footer class="footer_area" style="">
+        <footer class="footer_area" style="margin-top:300px;">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-12">
